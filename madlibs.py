@@ -63,7 +63,8 @@ def show_madlibs_answer():
     person_from_form = request.args.get("person")
     adjective_from_form = request.args.get("adjective")
 
-    return render_template("madlibs.html", color=color_from_form, noun=noun_from_form, person=person_from_form, adjective=adjective_from_form)
+    display_madlib = choice(["madlibs1.html", "madlibs2.html", "madlibs3.html"])
+    return render_template(display_madlib, color=color_from_form, noun=noun_from_form, person=person_from_form, adjective=adjective_from_form)
 
 
 if __name__ == "__main__":
