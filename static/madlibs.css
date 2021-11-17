@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+    font-family: Palatino;
+}
+body {
+    color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+form {
+    color: violet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blueviolet {
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.greenyellow {
+    color: greenyellow;
+    font-family: cursive;
+}
+.pink {
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
