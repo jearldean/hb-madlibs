@@ -5,6 +5,15 @@
   <title>Goodbye</title>
 </head>
 <body>
-    Bye, {{ person }}! I still think you're {{ compliment }}!
+Bye {{person}}!
+{% if compliments %}
+I still think you're 
+  <ul>
+    {% for compliment in compliments %}
+      <li>{{ compliment }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+!
 </body>
 </html>
